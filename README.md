@@ -43,7 +43,7 @@ Admin Notice will default to `notice-error` if no notice is provided or an unlis
 add_filters( 'admin_notice_valid_notice_types', $valid_notice_types );
 
 function add_custom_notice_type_class( $valid_notice_types ) {
-  $vaid_notice_types[] = 'notice-custom';
+  $valid_notice_types[] = 'notice-custom';
 
   return $valid_notice_types;
 }
